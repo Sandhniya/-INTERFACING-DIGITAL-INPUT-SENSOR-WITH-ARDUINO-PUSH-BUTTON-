@@ -1,8 +1,8 @@
 ## INTERFACING DIGITAL INPUT SENSOR WITH ARDUINO PUSH BUTTON
-## DATE :
-## NAME :																			             
-## ROLLNUMBER :
-## DEPARTMENT 
+## DATE :16.02.24
+## NAME :B.SANDHIYA SREE																			             
+## ROLLNUMBER :212223220093
+## DEPARTMENT :INFORMATION TECHNOLOGY
 
 
 ## AIM:
@@ -33,8 +33,6 @@ EEPROM	512 bytes (ATmega168) or 1 KB (ATmega328)
 Clock Speed	16 MHz
 ## PIN DIAGRAM FOR ATMEGA 328
  
-![image](https://user-images.githubusercontent.com/36288975/163530394-115baee4-7ed1-49fe-9cce-d7b625e11e85.png)
-
 FIGURE-01
 ![image](https://user-images.githubusercontent.com/36288975/163530431-4d390e98-0942-42d8-95b8-f57d348e6ad8.png)
 
@@ -51,6 +49,7 @@ FIGURE-02
 
 ## CIRCUIT DIAGRAM 
 
+[EXPERIMENT1.pdf](https://github.com/Sandhniya/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/files/14312283/EXPERIMENT1.pdf)
 
 ![image](https://user-images.githubusercontent.com/36288975/163530437-87a0afbd-b3c9-44ad-b907-5de63486fb9d.png)
 
@@ -63,7 +62,31 @@ FIGURE -03
 
 ## PROGRAM 
  
- 
+ int led= 3;
+int pushbutton=4;
+void setup()
+{
+  pinMode(led, OUTPUT);
+  pinMode(pushbutton,INPUT);
+}
+
+void loop()
+{
+  int pb;
+  pb= digitalRead(pushbutton);
+   if(pb==HIGH)
+
+   {
+  digitalWrite(led, HIGH);
+  delay(500); 
+  digitalWrite(led, LOW);
+  delay(500);
+}
+    else
+    { delay(500);
+       digitalWrite(led, LOW);
+    }}
+
 
 
 
@@ -81,5 +104,7 @@ FIGURE -03
 
 ## OUTPUT OF SIMULATION :
 
-[My image](username.github.com/repository/img/image.jpg)
+[My image](username.github.com/repository/img/image.jpg)!
+
+![image](https://github.com/Sandhniya/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/151395890/230f024f-9bb8-455e-b25a-8c842d8654c5)
 
