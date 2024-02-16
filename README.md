@@ -61,7 +61,7 @@ FIGURE -03
 
 
 ## PROGRAM 
- 
+``` 
  int led= 3;
 int pushbutton=4;
 void setup()
@@ -86,7 +86,7 @@ void loop()
     { delay(500);
        digitalWrite(led, LOW);
     }}
-
+```
 
 
 
@@ -104,7 +104,7 @@ void loop()
 
 ## OUTPUT OF SIMULATION :
 
-[My image](username.github.com/repository/img/image.jpg)!
-
 ![image](https://github.com/Sandhniya/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/151395890/230f024f-9bb8-455e-b25a-8c842d8654c5)
+![ex 1](https://github.com/Sandhniya/-INTERFACING-DIGITAL-INPUT-SENSOR-WITH-ARDUINO-PUSH-BUTTON-/assets/151395890/3da3dbc3-1d6d-407e-b374-19756ebf2487)
+
 
